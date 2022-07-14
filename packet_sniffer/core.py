@@ -75,7 +75,7 @@ class PacketSniffer:
     def __init__(self):
         """Monitor a network interface for incoming data, decode it and
         send to pre-defined output methods."""
-        self._observers = list()
+        self._observers = []
 
     def register(self, observer) -> None:
         """Register an observer for processing/output of decoded
