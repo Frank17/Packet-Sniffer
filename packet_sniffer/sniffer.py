@@ -34,6 +34,5 @@ try:
         '''Iterate through the frames yielded by the listener in an 
         infinite cycle while feeding them to all registered observers 
         for further processing/output'''
-        pass
 except KeyboardInterrupt:
     raise SystemExit("[!] Aborting packet capture...")
